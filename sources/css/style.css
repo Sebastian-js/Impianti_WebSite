@@ -1,25 +1,31 @@
 .masthead {
-    background-color: cyan;
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
 
 #logo {
     text-decoration: none;
-    background-color: green;
+    background-color: white;
     margin: 2px;
 }
 
 .info {
-    background-color: green;
+    background-color: white;
     display: inline-block;
     margin: 2px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    height: inherit;
+    color: #001742;
 }
 
 .container {
     justify-content: space-between;
+}
+
+body {
+    font-family: rubik;
 }
 
