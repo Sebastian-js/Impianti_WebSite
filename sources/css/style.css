@@ -1,4 +1,25 @@
-.header {
-    position: relative;
-    ;
+.masthead {
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
 }
+
+#logo {
+    text-decoration: none;
+    background-color: green;
+    margin: 2px;
+}
+
+.info {
+    background-color: green;
+    display: inline-block;
+    margin: 2px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container {
+    justify-content: space-between;
+}
+
