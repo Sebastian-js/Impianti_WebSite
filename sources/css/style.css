@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-#logo {
+#logo_impianti {
     text-decoration: none;
     background-color: white;
     margin: 10pt;
@@ -21,7 +21,7 @@
     display: none;
 }
 
-.info {
+.informazioni {
     background-color: white;
     display: inline-block;
     margin: 5pt;
@@ -32,8 +32,9 @@
     color: #001742;
 }
 
-.container {
+.container_masthead {
     justify-content: space-between;
+    margin-right: 30pt;
 }
 
 a {
@@ -59,53 +60,13 @@ html {
 .clients {
     min-height: 100pt;
 }
-.form {
-    min-height: 600pt;
-    background-color: #6c757d;
+.form{
+    display: flex;
+    justify-content: flex-start;
+    padding: 100pt 100pt 100pt 100pt;
+    background-color: papayawhip;
 }
 .footer {
     background-color: #001742;
     min-height: 30pt;
 }
-.carousel {
-    position: relative;
-}
-
-.carousel__item {
-    height: 500px;
-    background: grey;
-    padding: 1em;
-    font-weight: bold;
-    font-size: 2em;
-    color: #ffffff;
-    display: none;
-}
-
-.carousel__item--selected {
-    display: block;
-}
-
-.carousel__nav {
-    width: 100%;
-    padding: 20px 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-}
-
-.carousel__button {
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.carousel__button--selected {
-    background: rgba(255, 255, 255, 0.5);
-}
-
-
