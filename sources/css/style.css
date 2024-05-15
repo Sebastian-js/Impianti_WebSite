@@ -1,6 +1,22 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #333;
+    font-family: rubik;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .masthead {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 #logo_impianti {
@@ -38,40 +54,46 @@
     margin-right: 30pt;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-body {
-    font-family: rubik;
-    margin: 0;
-}
-
-html {
-    overflow-x: hidden;
-}
 .nav {
     min-height: 500pt;
-    background-color: black;
+    background-color: white;
 }
+
+.smiggle {
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top: 20%;
+}
+
 .article {
     min-height: 350pt;
 }
 
 .form{
     display: flex;
-    justify-content: flex-start;
-    padding: 100pt 100pt 100pt 100pt;
-    background-color: papayawhip;
-}
-.footer {
-    background-color: #001742;
-    min-height: 30pt;
+    justify-content: center;
+    margin-top: 5em;
+    padding: 100pt;
+    background-color: #f2f2f2;
 }
 
-body {
-    background-color: #333;
+.form button {
+    background-color: #001742;
+    width: 10em;
+}
+
+.mb-3 {
+    width: 30em;
+}
+
+.form_presentation {
+    padding: 20pt 0;
+}
+
+.footer {
+    background-color: #001742;
+    min-height: 20em;
 }
 
 @keyframes slide {
@@ -86,12 +108,16 @@ body {
 .clients {
     overflow: hidden;
     box-sizing: border-box;
-    padding: 3em 0;
     white-space: nowrap;
 }
 
-.slide_track {
+.clients-presentation {
+    display: flex;
+    justify-content: center;
+    padding: 5em 0;
+}
 
+.slide_track {
     box-sizing: border-box;
     animation: 25s slide infinite linear;
     display: inline-block;
@@ -101,3 +127,4 @@ body {
     height: 6em;
     margin: 0 3em;
 }
+
