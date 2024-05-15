@@ -58,9 +58,7 @@ html {
 .article {
     min-height: 350pt;
 }
-.clients {
-    min-height: 100pt;
-}
+
 .form{
     display: flex;
     justify-content: flex-start;
@@ -70,4 +68,36 @@ html {
 .footer {
     background-color: #001742;
     min-height: 30pt;
+}
+
+body {
+    background-color: #333;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.clients {
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 3em 0;
+    white-space: nowrap;
+}
+
+.slide_track {
+
+    box-sizing: border-box;
+    animation: 25s slide infinite linear;
+    display: inline-block;
+}
+
+.slide_track img{
+    height: 6em;
+    margin: 0 3em;
 }
