@@ -210,3 +210,50 @@ a {
     display: block;
     color: lightslategrey;
 }
+
+.section{
+    display: grid;
+    position: relative;
+
+}
+.navigazione{
+    top: 0;
+    min-width: 30%;
+    position: sticky;
+    top: 10pt;
+
+}
+
+.navigazione li{
+    padding-bottom: 5pt;
+}
+
+.section header p {
+    text-align: center;
+    font-size: 80pt;
+    font-weight: bold;
+}
+
+.navigazione p{
+    color: #FFB30C;
+}
+
+.section a{
+    color: #001742;
+}
+
+.content_privacy {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10em 3em;
+}
+
+.actual-privacy-text {
+    margin-left: 15em;
+    margin-bottom: 3em;
+}
+
+.actual-privacy-text h1{
+    color: #FFB30C;
+    font-size: 3em;
+}
