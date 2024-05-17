@@ -35,6 +35,7 @@ a {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    padding: 20px;
 }
 
 #logo_impianti {
