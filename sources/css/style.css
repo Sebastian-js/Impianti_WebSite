@@ -15,9 +15,19 @@ li {
     padding: 0;
 }
 
-
 html {
     overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 body {
@@ -80,8 +90,16 @@ a {
 }
 
 .nav {
+    color: #001742;
+    display: flex;
+    margin: 5em 3em 10em 3em;
     min-height: 500pt;
-    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description_impianti h1{
+    font-size: 100pt;
 }
 
 .smiggle {
@@ -89,6 +107,10 @@ a {
     width: 700px;
     position: absolute;
     top: 20%;
+}
+
+.carousel {
+    margin-top: 10em;
 }
 
 .article {
@@ -214,7 +236,6 @@ a {
 .section{
     display: grid;
     position: relative;
-
 }
 .navigazione{
     top: 0;
@@ -256,4 +277,56 @@ a {
 .actual-privacy-text h1{
     color: #FFB30C;
     font-size: 3em;
+}
+
+.section-chisiamo {
+    margin: 0;
+    padding: 80pt 3em 10em 3em;
+    background-color: black;
+}
+
+.section-chisiamo header p {
+    text-align: center;
+    font-size: 80pt;
+    font-weight: bold;
+    color: white;
+}
+
+.section-chisiamo header{
+    margin: 0 0 50pt 0;
+}
+
+.accordion-element {
+    background-color: rgba(255, 255, 255, 0.09);
+    min-height: 100pt;
+    min-width: 100%;
+    margin: 2em 0.5em;
+    border-radius: 10pt;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+.accordion-element h1{
+    font-weight: bold;
+    margin: 0 1em;
+    font-size: 50pt;
+}
+
+.accordion-element:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.accordion-element:focus-visible {
+    background-color: white;
+    color: black;
+}
+
+.accordion-p {
+    font-size: 20pt;
+    max-width: 35%;
+    margin: 20pt;
 }
