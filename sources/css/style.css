@@ -16,7 +16,7 @@ li {
 }
 
 html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -320,7 +320,7 @@ a {
 
 }
 
-.accordion-element:focus-visible {
+.accordion-element:focus {
     background-color: white;
     color: black;
 }
@@ -329,4 +329,37 @@ a {
     font-size: 20pt;
     max-width: 35%;
     margin: 20pt;
+}
+
+.chisiamo-paragraph {
+    margin: 8em 3em 8em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.chisiamo-paragraph .element{
+    padding: 20pt;
+    max-width: 50%;
+}
+
+.element p{
+    font-size: 20pt;
+}
+
+.element h1{
+    font-size: 80pt;
+    font-weight: bold;
+}
+
+.trans{
+    overflow-x: clip;
+}
+
+.middle {
+    background-color: #001220;
+    margin: 0;
+    padding: 8em 3em 8em 3em;
+    color: white;
+
 }
