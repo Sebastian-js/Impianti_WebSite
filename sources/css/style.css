@@ -299,7 +299,7 @@ a {
 .accordion-element {
     background-color: rgba(255, 255, 255, 0.09);
     min-height: 100pt;
-    min-width: 100%;
+    width: 100%;
     margin: 2em 0.5em;
     border-radius: 10pt;
     color: white;
@@ -313,6 +313,11 @@ a {
     font-weight: bold;
     margin: 0 1em;
     font-size: 50pt;
+}
+
+.accordion-element p{
+    text-align: justify;
+    margin: 0 1em;
 }
 
 .accordion-element:hover{
@@ -361,5 +366,8 @@ a {
     margin: 0;
     padding: 8em 3em 8em 3em;
     color: white;
+}
 
+.end {
+    margin-bottom: 20em;
 }
