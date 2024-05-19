@@ -54,18 +54,6 @@ a {
     margin: 10pt;
 }
 
-.path {
-    height: 700px;
-    width: 700px;
-    position: absolute;
-    top: -30%;
-    right: -30%;
-    background-color: red;
-    border-radius: 50%;
-    z-index: 0;
-    display: none;
-}
-
 .informazioni {
     background-color: white;
     display: inline-flex;
@@ -100,13 +88,6 @@ a {
 
 .description_impianti h1{
     font-size: 100pt;
-}
-
-.smiggle {
-    height: 700px;
-    width: 700px;
-    position: absolute;
-    top: 20%;
 }
 
 .carousel {
@@ -370,4 +351,8 @@ a {
 
 .end {
     margin-bottom: 20em;
+}
+
+.container {
+    padding-top: 60pt !important;
 }
